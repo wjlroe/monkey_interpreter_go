@@ -2,8 +2,9 @@ package ast
 
 import (
 	"bytes"
-	"monkey/token"
 	"strings"
+
+	"github.com/wjlroe/monkey_interpreter_go/token"
 )
 
 type Node interface {

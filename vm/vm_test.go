@@ -2,12 +2,13 @@ package vm
 
 import (
 	"fmt"
-	"monkey/ast"
-	"monkey/compiler"
-	"monkey/lexer"
-	"monkey/object"
-	"monkey/parser"
 	"testing"
+
+	"github.com/wjlroe/monkey_interpreter_go/ast"
+	"github.com/wjlroe/monkey_interpreter_go/compiler"
+	"github.com/wjlroe/monkey_interpreter_go/lexer"
+	"github.com/wjlroe/monkey_interpreter_go/object"
+	"github.com/wjlroe/monkey_interpreter_go/parser"
 )
 
 type vmTestCase struct {

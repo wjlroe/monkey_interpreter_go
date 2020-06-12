@@ -1,8 +1,8 @@
 package vm
 
 import (
-	"monkey/code"
-	"monkey/object"
+	"github.com/wjlroe/monkey_interpreter_go/code"
+	"github.com/wjlroe/monkey_interpreter_go/object"
 )
 
 type Frame struct {

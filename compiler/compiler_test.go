@@ -2,12 +2,13 @@ package compiler
 
 import (
 	"fmt"
-	"monkey/ast"
-	"monkey/code"
-	"monkey/lexer"
-	"monkey/object"
-	"monkey/parser"
 	"testing"
+
+	"github.com/wjlroe/monkey_interpreter_go/ast"
+	"github.com/wjlroe/monkey_interpreter_go/code"
+	"github.com/wjlroe/monkey_interpreter_go/lexer"
+	"github.com/wjlroe/monkey_interpreter_go/object"
+	"github.com/wjlroe/monkey_interpreter_go/parser"
 )
 
 type compilerTestCase struct {

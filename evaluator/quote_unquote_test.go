@@ -1,8 +1,9 @@
 package evaluator
 
 import (
-	"monkey/object"
 	"testing"
+
+	"github.com/wjlroe/monkey_interpreter_go/object"
 )
 
 func TestQuote(t *testing.T) {

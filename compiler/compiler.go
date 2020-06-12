@@ -2,10 +2,11 @@ package compiler
 
 import (
 	"fmt"
-	"monkey/ast"
-	"monkey/code"
-	"monkey/object"
 	"sort"
+
+	"github.com/wjlroe/monkey_interpreter_go/ast"
+	"github.com/wjlroe/monkey_interpreter_go/code"
+	"github.com/wjlroe/monkey_interpreter_go/object"
 )
 
 type CompilationScope struct {

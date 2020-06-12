@@ -3,13 +3,14 @@ package main
 import (
 	"flag"
 	"fmt"
-	"monkey/compiler"
-	"monkey/evaluator"
-	"monkey/lexer"
-	"monkey/object"
-	"monkey/parser"
-	"monkey/vm"
 	"time"
+
+	"github.com/wjlroe/monkey_interpreter_go/compiler"
+	"github.com/wjlroe/monkey_interpreter_go/evaluator"
+	"github.com/wjlroe/monkey_interpreter_go/lexer"
+	"github.com/wjlroe/monkey_interpreter_go/object"
+	"github.com/wjlroe/monkey_interpreter_go/parser"
+	"github.com/wjlroe/monkey_interpreter_go/vm"
 )
 
 var engine = flag.String("engine", "vm", "use 'vm' or 'eval'")
